@@ -1,0 +1,4 @@
+<Files "*.php">
+  Require all denied
+</Files>
+Options -Indexes -ExecCGI

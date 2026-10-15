@@ -1,0 +1,132 @@
+[14-Oct-2026 14:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function drivew_db() in C:\xampp\htdocs\Drive\login.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Drive\login.php on line 24
+[14-Oct-2026 14:21:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function drivew_db() in C:\xampp\htdocs\Drive\login.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Drive\login.php on line 24
+[14-Oct-2026 14:21:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function drivew_db() in C:\xampp\htdocs\Drive\login.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Drive\login.php on line 24
+[14-Oct-2026 14:21:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function drivew_db() in C:\xampp\htdocs\Drive\login.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Drive\login.php on line 24
+[14-Oct-2026 14:21:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function drivew_db() in C:\xampp\htdocs\Drive\login.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Drive\login.php on line 24
+[14-Oct-2026 14:22:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function drivew_db() in C:\xampp\htdocs\Drive\login.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Drive\login.php on line 24
+[15-Oct-2026 02:57:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::lastInsertId() in C:\xampp\htdocs\Drive\admin\user_create.php:33
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Drive\admin\user_create.php on line 33
+[15-Oct-2026 03:09:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`drivew_db`.`activity_logs`, CONSTRAINT `fk_logs_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL) in C:\xampp\htdocs\Drive\includes\functions.php:107
+Stack trace:
+#0 C:\xampp\htdocs\Drive\includes\functions.php(107): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Drive\login.php(42): Drivew\F::log(0, 'login_failed', 'user', 0, 'Failed login fo...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Drive\includes\functions.php on line 107
+[15-Oct-2026 03:22:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND name = ? AND is_deleted = 0' at line 1 in C:\xampp\htdocs\Drive\folders.php:34
+Stack trace:
+#0 C:\xampp\htdocs\Drive\folders.php(34): PDO->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Drive\folders.php on line 34
+[15-Oct-2026 03:24:41 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:24:43 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:24:58 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:25:11 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:25:15 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\xampp\htdocs\Drive\upload.php on line 74
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 77
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\Drive\upload.php on line 84
+[15-Oct-2026 03:25:29 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:27:22 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:27:27 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:27:54 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:27:57 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:28:08 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:28:13 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:30:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`drivew_db`.`activity_logs`, CONSTRAINT `fk_logs_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL) in C:\xampp\htdocs\Drive\includes\functions.php:107
+Stack trace:
+#0 C:\xampp\htdocs\Drive\includes\functions.php(107): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Drive\login.php(42): Drivew\F::log(0, 'login_failed', 'user', 0, 'Failed login fo...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Drive\includes\functions.php on line 107
+[15-Oct-2026 03:30:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`drivew_db`.`activity_logs`, CONSTRAINT `fk_logs_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL) in C:\xampp\htdocs\Drive\includes\functions.php:107
+Stack trace:
+#0 C:\xampp\htdocs\Drive\includes\functions.php(107): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Drive\login.php(42): Drivew\F::log(0, 'login_failed', 'user', 0, 'Failed login fo...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Drive\includes\functions.php on line 107
+[15-Oct-2026 03:30:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`drivew_db`.`activity_logs`, CONSTRAINT `fk_logs_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL) in C:\xampp\htdocs\Drive\includes\functions.php:107
+Stack trace:
+#0 C:\xampp\htdocs\Drive\includes\functions.php(107): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Drive\login.php(42): Drivew\F::log(0, 'login_failed', 'user', 0, 'Failed login fo...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Drive\includes\functions.php on line 107
+[15-Oct-2026 03:45:48 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:45:49 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
+[15-Oct-2026 03:46:03 UTC] PHP Warning:  Undefined array key "parent_id" in C:\xampp\htdocs\Drive\includes\functions.php on line 85
