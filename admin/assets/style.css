@@ -1,0 +1,3 @@
+/* Drivew Admin - minor additions to the global stylesheet */
+.admin-pill { font-size:.62rem; letter-spacing:.02em; }
+.badge.rounded-pill { padding:.4em .8em; }
